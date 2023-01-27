@@ -1,19 +1,45 @@
 @charset "UTF-8"
 
+ /* Color Theme Swatches in Hex */
+.AWD-Complimentary--1-hex { color: #B37439; }
+.AWD-Complimentary--2-hex { color: #FFC085; }
+.AWD-Complimentary--3-hex { color: #FFB46C; }
+.AWD-Complimentary--4-hex { color: #2796B3; }
+.AWD-Complimentary--5-hex { color: #6BE1FF; }
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
 body {
-    background-image: linear-gradient(to right, #f9d0b5, #e3af8c77, #dea47da0);
-    
+    background-color: #B37439;
 }
 
 header {
-    background-image: linear-gradient(to bottom, rgba(255, 166, 0, 0.538), #e1b89ca0);
+    background-image: linear-gradient(to bottom, #FFB46C, #B37439);
     text-align: center;
-    padding-top: 20px;
+    font-size: 1.5em;
+    padding-top: 5px;
+
+}
+
+nav {
+    background-color: var(--cor1);
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.378);
+    
+}
+
+nav > p {
+    color: white;
+   font-weight: bold;
+   text-shadow: 1px 1px 0px black;
+    
 }
 
 div {
@@ -21,18 +47,50 @@ div {
     columns: 3; 
 }
 
-h3 {
+h1 {
     color: white;
-    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 0px black;}
+
+    h2 {
+        background-image: linear-gradient(to left, #6BE1FF, transparent);
+        color: #2796B3;
+    }
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #6BE1FF;
+    font-size: 2.5em;
+    background-image: linear-gradient(to right, #ffb46c, transparent);
+    text-align: left;
+    padding: 10px;
+    margin-top: 40px;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px black;
+}
+
+aside > p {
+    background-color: #FFC085;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 10px -10px 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.546);
+    text-align: center;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1.5em;
 }
 
 img {
     width: 80%;
     display: block;
+    border: 10px solid white;
+    border-radius: 30px;
     margin: auto;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.258);
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.258);
     padding-bottom: 20px;
     
 }
@@ -42,7 +100,7 @@ main {
     border: 10px;
     border-radius: 10px;
     box-shadow: 5px 5px 15px #945F3B;
-    width: 1400px;
+    width: 1300px;
     padding: 10px;
     margin: auto;
 }
@@ -52,14 +110,13 @@ main > ul {
     columns: 2;
 }
 
-h1 {
-    color: #945F3B;
-    text-align: center;
-    text-shadow: 2px 2px 3px #bf7a4cd0;
-}
 
-h2 {
-    color: #2C8E94;
+
+
+div#foto {
+border: 10px solid #FFC085;
+padding: 10px;
+margin: 10px 10px;
 }
 
 p {
