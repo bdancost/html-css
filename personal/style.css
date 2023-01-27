@@ -100,12 +100,14 @@ img {
 main {
     min-width: 300px;
     max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
     background-color: white;
     border: 10px;
     border-radius: 10px;
     box-shadow: 5px 5px 15px #945F3B;
-    padding: 10px;
-    margin: auto;
+   
 }
 
 main > ul {
