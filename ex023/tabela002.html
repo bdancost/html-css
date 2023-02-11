@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -30,6 +31,20 @@
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(odd) { /* 2n-1 */
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even) { /* 2n */
+            background-color: lightgray;
         }
 
         td.num {
@@ -177,5 +192,10 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque provident corrupti similique. Deleniti, qui! Minus, dolore! Fugit, quod id! Praesentium, nam molestias voluptates est laudantium non iste culpa quae sed? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias quaerat qui nostrum! Ex magni dolorem placeat numquam perferendis vitae hic cumque mollitia. Nulla, ullam illum cum praesentium fuga eos velit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptate quidem doloremque minima illo nisi maxime, sequi ab delectus minus, explicabo vitae architecto velit consequatur voluptates ipsum maiores molestias tenetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti ducimus vel illum praesentium, deleniti quisquam a labore quis maiores ex officiis, excepturi voluptatibus! Quas consequuntur dignissimos recusandae expedita pariatur cum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid similique reiciendis ipsam consequatur est, sunt architecto eum obcaecati tempore corrupti libero sit saepe. Quae iure tempore neque adipisci? Inventore, earum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque provident corrupti similique. Deleniti, qui! Minus, dolore! Fugit, quod id! Praesentium, nam molestias voluptates est laudantium non iste culpa quae sed? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias quaerat qui nostrum! Ex magni dolorem placeat numquam perferendis vitae hic cumque mollitia. Nulla, ullam illum cum praesentium fuga eos velit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptate quidem doloremque minima illo nisi maxime, sequi ab delectus minus, explicabo vitae architecto velit consequatur voluptates ipsum maiores molestias tenetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti ducimus vel illum praesentium, deleniti quisquam a labore quis maiores ex officiis, excepturi voluptatibus! Quas consequuntur dignissimos recusandae expedita pariatur cum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid similique reiciendis ipsam consequatur est, sunt architecto eum obcaecati tempore corrupti libero sit saepe. Quae iure tempore neque adipisci? Inventore, earum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque provident corrupti similique. Deleniti, qui! Minus, dolore! Fugit, quod id! Praesentium, nam molestias voluptates est laudantium non iste culpa quae sed? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias quaerat qui nostrum! Ex magni dolorem placeat numquam perferendis vitae hic cumque mollitia. Nulla, ullam illum cum praesentium fuga eos velit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptate quidem doloremque minima illo nisi maxime, sequi ab delectus minus, explicabo vitae architecto velit consequatur voluptates ipsum maiores molestias tenetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti ducimus vel illum praesentium, deleniti quisquam a labore quis maiores ex officiis, excepturi voluptatibus! Quas consequuntur dignissimos recusandae expedita pariatur cum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid similique reiciendis ipsam consequatur est, sunt architecto eum obcaecati tempore corrupti libero sit saepe. Quae iure tempore neque adipisci? Inventore, earum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque provident corrupti similique. Deleniti, qui! Minus, dolore! Fugit, quod id! Praesentium, nam molestias voluptates est laudantium non iste culpa quae sed? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias quaerat qui nostrum! Ex magni dolorem placeat numquam perferendis vitae hic cumque mollitia. Nulla, ullam illum cum praesentium fuga eos velit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptate quidem doloremque minima illo nisi maxime, sequi ab delectus minus, explicabo vitae architecto velit consequatur voluptates ipsum maiores molestias tenetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti ducimus vel illum praesentium, deleniti quisquam a labore quis maiores ex officiis, excepturi voluptatibus! Quas consequuntur dignissimos recusandae expedita pariatur cum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid similique reiciendis ipsam consequatur est, sunt architecto eum obcaecati tempore corrupti libero sit saepe. Quae iure tempore neque adipisci? Inventore, earum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque provident corrupti similique. Deleniti, qui! Minus, dolore! Fugit, quod id! Praesentium, nam molestias voluptates est laudantium non iste culpa quae sed? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias quaerat qui nostrum! Ex magni dolorem placeat numquam perferendis vitae hic cumque mollitia. Nulla, ullam illum cum praesentium fuga eos velit? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptate quidem doloremque minima illo nisi maxime, sequi ab delectus minus, explicabo vitae architecto velit consequatur voluptates ipsum maiores molestias tenetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti ducimus vel illum praesentium, deleniti quisquam a labore quis maiores ex officiis, excepturi voluptatibus! Quas consequuntur dignissimos recusandae expedita pariatur cum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid similique reiciendis ipsam consequatur est, sunt architecto eum obcaecati tempore corrupti libero sit saepe. Quae iure tempore neque adipisci? Inventore, earum.</p>
 </body>
 </html>
