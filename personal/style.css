@@ -18,11 +18,11 @@
 
 
 body {
-    background-color: #B37439;
+    background-color: #c9a078;
 }
 
 header {
-    background-image: linear-gradient(to bottom, #FFB46C, #B37439);
+    background-image: linear-gradient(to bottom, #FFB46C, #cc925b);
     min-height: 150px;
     text-align: center;
     font-size: 1.5em;
@@ -86,9 +86,9 @@ aside > p {
 }
 
 img {
-    width: 80%;
+    width: 100%;
     display: block;
-    border: 10px solid white;
+    border: 5px solid white;
     border-radius: 30px;
     margin: auto;
     box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.258);
@@ -98,7 +98,7 @@ img {
 
 main {
     min-width: 300px;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
@@ -110,11 +110,9 @@ main {
 }
 
 main > ul {
-    list-style-position: inside;
-    columns: 2;
+    display: flex;
+    padding: 5px;
 }
-
-
 
 
 div#foto {
@@ -126,4 +124,14 @@ margin: 10px 10px;
 p {
     text-align: justify;
     padding: 10px;
+}
+
+h4 {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 40px;
+    margin: 20px;
+    text-align: right;
+    
 }
